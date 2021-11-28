@@ -1,9 +1,11 @@
-import ClassCounterOne from "./components/ClassCounterOne";
+// import ClassCounterOne from "./components/ClassCounterOne";
+import HookCounterOne from "./components/HookCounterOne";
 
 function App() {
   return (
     <div>
-      <ClassCounterOne />
+      {/* <ClassCounterOne /> */}
+      <HookCounterOne />
     </div>
   );
 }
