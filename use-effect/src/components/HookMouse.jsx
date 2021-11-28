@@ -13,7 +13,17 @@ export default function HookMouse() {
   useEffect(() => {
     console.log("useEffect called");
     window.addEventListener("mousemove", logMousePosition);
-  }, []); // Execute only once (= componentDidMount)
+
+    // cleanup function (similar to componentWillUnmount)
+    return () => {
+      console.log("Component unmounting code");
+
+      window.removeEventListener(
+        "mousemove",
+        logMousePosition
+      );
+    };
+  }, []); // Execute only once (similar to componentDidMount)
 
   return (
     <div>
