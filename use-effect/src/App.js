@@ -2,9 +2,10 @@
 // import HookCounterOne from "./components/HookCounterOne";
 // import HookCounterOne02 from "./components/HookCounterOne02";
 // import HookMouse from "./components/HookMouse";
-import DataFetching from "./components/DataFetching";
+// import DataFetching from "./components/DataFetching";
 // import IntervalHookCounter from "./components/IntervalHookCounter";
 // import MouseContainer from "./components/MouseContainer";
+import DataFetching02 from "./components/DataFetching02";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <HookMouse /> */}
       {/* <MouseContainer /> */}
       {/* <IntervalHookCounter /> */}
-      <DataFetching />
+      {/* <DataFetching /> */}
+      <DataFetching02 />
     </div>
   );
 }
