@@ -1,9 +1,10 @@
 import React, { useReducer } from "react";
 // import Counter01 from "./components/Counter01";
 // import Counter02 from "./components/Counter02";
-import ComponentA from "./components/ComponentA";
-import ComponentB from "./components/ComponentB";
-import ComponentC from "./components/ComponentC";
+// import ComponentA from "./components/ComponentA";
+// import ComponentB from "./components/ComponentB";
+// import ComponentC from "./components/ComponentC";
+import DataFetching from "./components/DataFetching";
 // import Counter03 from "./components/Counter03";
 
 const initialState = 0;
@@ -41,9 +42,10 @@ function App() {
         {/* <Counter01 /> */}
         {/* <Counter02 /> */}
         {/* <Counter03 /> */}
-        <ComponentA />
-        <ComponentB />
-        <ComponentC />
+        {/* <ComponentA /> */}
+        {/* <ComponentB /> */}
+        {/* <ComponentC /> */}
+        <DataFetching />
       </div>
     </CounterContext.Provider>
   );
