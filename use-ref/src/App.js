@@ -1,9 +1,11 @@
-import FocusInput from "./components/FocusInput";
+// import FocusInput from "./components/FocusInput";
+import HookTimer from "./components/HooTimer";
 
 function App() {
   return (
     <div>
-      <FocusInput />
+      {/* <FocusInput /> */}
+      <HookTimer />
     </div>
   );
 }
